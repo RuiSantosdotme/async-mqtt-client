@@ -3,7 +3,7 @@
 ![Build with PlatformIO](https://github.com/marvinroger/async-mqtt-client/workflows/Build%20with%20Platformio/badge.svg)
 ![cpplint](https://github.com/marvinroger/async-mqtt-client/workflows/cpplint/badge.svg)
 
-An Arduino for ESP8266 and ESP32 asynchronous [MQTT](http://mqtt.org/) client implementation, built on [me-no-dev/ESPAsyncTCP (ESP8266)](https://github.com/me-no-dev/ESPAsyncTCP) | [me-no-dev/AsyncTCP (ESP32)](https://github.com/me-no-dev/AsyncTCP).
+An Arduino for ESP8266 and ESP32 asynchronous [MQTT](http://mqtt.org/) client implementation, built on [me-no-dev/ESPAsyncTCP (ESP8266)](https://github.com/me-no-dev/ESPAsyncTCP) | [me-no-dev/AsyncTCP (ESP32)](https://github.com/me-no-dev/AsyncTCP) .
 
 ## Features
 
@@ -13,7 +13,6 @@ An Arduino for ESP8266 and ESP32 asynchronous [MQTT](http://mqtt.org/) client im
 * Publish at QoS 0, 1 and 2
 * SSL/TLS support
 * Available in the [PlatformIO registry](http://platformio.org/lib/show/346/AsyncMqttClient)
-* **New:** Option to discover the MQTT server by searching for the service `_mqtt` over the `_tcp` port.
 
 ## Requirements, installation and usage
 
